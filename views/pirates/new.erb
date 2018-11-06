@@ -1,1 +1,12 @@
-<h1>Make your form here</h1>
+<form method = "POST" action = "/pirates">
+  <input type = "text" id = "pirate_name" name = "pirate[name]" placeholder="pirate name:"/>
+  <input type = "text" id = "pirate_weight" name = "pirate[weight]" placeholder="weight:"/>
+  <input type = "text" id = "pirate_height" name = "pirate[height]" placeholder="hight:"/>
+  <input type = "text" id = "ship_name_1" name = "pirate[ships][][name]" placeholder="ship name:"/>
+  <input type = "text" id = "ship_type_1" name = "pirate[ships][][type]" placeholder="ship type:"/>
+  <input type = "text" id = "ship_booty_1" name = "pirate[ships][][booty]" placeholder="ship booty:"/>
+  <input type = "text" id = "ship_name_2" name = "pirate[ships][][name]" placeholder="ship name:"/>
+  <input type = "text" id = "ship_type_2" name = "pirate[ships][][type]" placeholder="ship type:"/>
+  <input type = "text" id = "ship_booty_2" name = "pirate[ships][][booty]" placeholder="ship booty:"/>
+  <input type = "submit" id = "Submit" />
+</form>
